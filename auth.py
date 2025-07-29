@@ -13,7 +13,7 @@ SCOPES = 'user.info.basic,video.list,video.data,business.basic,business.video.li
 
 # Step 1: Build the authorization URL
 def build_auth_url():
-    base_url = "https://open.tiktokapis.com/v2/platform/oauth/connect/"
+    base_url = "https://www.tiktok.com/v2/auth/authorize/"
     params = {
         "client_key": CLIENT_KEY,
         "scope": SCOPES,
