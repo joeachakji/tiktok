@@ -9,8 +9,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 CLIENT_KEY = 'aw7zaowmp078p7qv'
 CLIENT_SECRET = 'GHLhtQJ0OmljhSkGXmiQH97kDY51DkvV'
 REDIRECT_URI = 'http://localhost:8000/callback'
-SCOPES = 'user.info.basic,video.list,video.data,business.basic,business.video.list,business.video.data
-'
+SCOPES = 'user.info.basic,video.list,video.data,business.basic,business.video.list,business.video.data'
 
 # Step 1: Build the authorization URL
 def build_auth_url():
